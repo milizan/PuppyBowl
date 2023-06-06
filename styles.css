@@ -3,3 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+#all-players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20pix;
+}
