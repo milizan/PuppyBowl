@@ -1,12 +1,47 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+/*  box-sizing: border-box;
+*/
 }
+body{
+  font-family: sans-serif;
+  background-image: url(./superbowl3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+
 #all-players-container {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
-  gap: 20pix;
+  text-transform: uppercase;
+ /* background-color: grey;
+ */ border: 2px solid lightgrey;
+
+}
+#new-player-form{
+  border: 2px solid lightgrey;
+  color:whitesmoke;
+  font-size: large;
+}
+
+.player,
+.player-details {
+background-color: rgb(206, 238, 227);
+color: black;
+width: 300px;
+}
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+#intro-statement {
+  text-align: center;
+  font-size:x-large;
+  color:whitesmoke;
 }
